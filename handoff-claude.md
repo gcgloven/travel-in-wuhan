@@ -68,7 +68,7 @@ python -X utf8 -c "import csv; rows = list(csv.reader(open('data/知识库/发�
 
 ## 提交与分支
 
-所有改动都在 `add-knowledge-base-and-docs` 分支上（从 main 的 89b8f86 开出），已推送到 origin，还没有合并进 main：
+所有改动先提交在 `add-knowledge-base-and-docs` 分支上（从 main 的 89b8f86 开出），2026-11-26 已快进合并进 main 并推送到 origin。之后在 main 上继续工作：
 
 - `07530a8`：小红书下载 agent 提交。提交信息写的是媒体归档和交接，但实际包含了当时工作区的全部改动：posts.jsonl、guide.md、媒体归档 `data/xiaohongshu/screenshots/6b024fab…/`、HANDOFF-xiaohongshu.md、高德检索结果-agent.csv（28 行），以及上面说的清单、待识别线索、README 和需求文档的修改。
 - 本文件单独一个提交。
